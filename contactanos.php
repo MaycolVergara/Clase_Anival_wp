@@ -10,12 +10,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="plantilla/Admin/vertical/assets/images/favicon.ico">
+    <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/images/favicon.ico">
 
     <!-- App css -->
-    <link href="plantilla/Admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="plantilla/Admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="plantilla/Admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -78,14 +78,14 @@
 
 
     <!-- jQuery  -->
-    <script src="plantilla/Admin/vertical/assets/js/jquery.min.js"></script>
-    <script src="plantilla/Admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="plantilla/Admin/vertical/assets/js/metismenu.min.js"></script>
-    <script src="plantilla/Admin/vertical/assets/js/waves.js"></script>
-    <script src="plantilla/Admin/vertical/assets/js/simplebar.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/jquery.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/metismenu.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/waves.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/simplebar.min.js"></script>
 
     <!-- App js -->
-    <script src="plantilla/Admin/vertical/assets/js/theme.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/plantilla/Admin/vertical/assets/js/theme.js"></script>
 
 </body>
 
